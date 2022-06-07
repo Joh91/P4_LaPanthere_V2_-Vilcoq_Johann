@@ -270,7 +270,7 @@ a:hover {
 }
 
 .voffset-lg {
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 .row-no-gutters {
@@ -679,7 +679,7 @@ a {
 
 p {
     font-size: 16px;
-
+    margin: 20px 0 
 }
 
 .tight-width-whitespace {
@@ -703,24 +703,28 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto auto auto;
+    display: flex; 
+    justify-content: center;
+    gap: 20px; 
 }
 
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    margin-bottom: 30px;
 }
 
 h3 {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #c65306!important;
 }
 
 .med-width-whitespace {
     max-width: 800px;
-    margin: auto auto auto auto;
+    margin: 40px auto 0;
     box-shadow: 0px 0px 0px #000000;
 }
 
@@ -809,8 +813,8 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #c65306!important;
+    border-color: #c65306!important;
 }
 
 
@@ -823,7 +827,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1042,6 +1046,10 @@ h4 {
     }
 }
 
+blockquote {
+    font-style: italic;
+    color: #ef6c0e;
+}
 
 figcaption {
     color: #c65306; 
@@ -1049,8 +1057,17 @@ figcaption {
 
 .title-footer {
     color: #ffffff!important;
+    text-align: center; 
 }
 
 label {
     font-size: 16px; 
+}
+
+.col-sm-4 {
+    padding: 0 20px; 
+}
+
+.footer-content {
+    padding-bottom: 40px; 
 }
