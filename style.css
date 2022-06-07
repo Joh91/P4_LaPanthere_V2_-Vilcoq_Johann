@@ -773,7 +773,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #BF450D;
 }
 
 .tc-white {
@@ -813,9 +813,6 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
@@ -1048,4 +1045,8 @@ h4 {
 
 figcaption {
     color: #c65306; 
+}
+
+.title-footer {
+    color: #ffffff!important;
 }
