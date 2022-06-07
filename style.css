@@ -1050,3 +1050,7 @@ figcaption {
 .title-footer {
     color: #ffffff!important;
 }
+
+label {
+    font-size: 16px; 
+}
