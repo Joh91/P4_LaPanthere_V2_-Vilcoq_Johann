@@ -683,7 +683,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto auto auto auto;
 }
 
@@ -792,6 +792,8 @@ h4 {
 
 .ltc-white {
     color: #FFFFFF!important;
+    display: block;
+    text-align: center;
 }
 
 .ltc-white:hover {
