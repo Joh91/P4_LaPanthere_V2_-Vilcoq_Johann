@@ -1016,7 +1016,7 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 0 15px;
     }
     .close-lightbox {
         display: inline-block;
@@ -1030,6 +1030,11 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    
+    .row {
+        width: 100%; 
+        margin: 0; 
     }
 }
 
